@@ -1,0 +1,210 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url(./img/decorative-grid.png);
+    font-size: 1.2em;
+}
+
+
+
+.col_1 {
+    width: 8.333333333333333%;
+}
+
+.col_2 {
+    width: 16.66666666666667%;
+}
+
+.col_3 {
+    width: 25%;
+}
+
+.col_4 {
+    width: 33.33333%;
+}
+
+.col_6 {
+    width: 50%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+.conteiner {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.row {
+    margin: 0 -15px;
+    padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+}
+
+
+
+.panel {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.col {
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.category {
+    list-style: none;
+    padding: 0;
+
+
+}
+
+
+
+
+.header {
+    text-align: center;
+
+    padding: 100px 0 150px 0;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #0b6890;
+    font-size: 3em;
+}
+
+header p {
+    color: #5a5a5a;
+    font-size: 1.5em;
+}
+
+
+.category li {
+    display: inline-block;
+
+}
+
+.category li a {
+    text-decoration: none;
+    color: #c2c2c2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.category li+li:before {
+    content: ",";
+    display: inline-block;
+    margin-right: 5px;
+    color: #c2c2c2;
+
+
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+   padding-top: 20px;
+
+}
+
+.title {
+    text-align: right;
+    font-style: italic;
+
+
+}
+.social li {
+    display: inline-block;
+
+}
+
+.social li a {
+    padding: 0 10px;
+    color: #c2c2c2;
+    
+
+}
+.social li a:hover {
+   
+    color: #0b6890;
+    
+
+}
+
+.cont {
+    line-height: 1.7;
+    color: #6e6e6e;
+}
+.navig{
+margin: 100px 0 200px 0;
+
+
+}
+
+.navig_lef{
+    color:rgb(211, 207, 207);
+    padding: 0 50px;
+    margin: 0px;
+}
+.navig_righ{
+    text-align: right;
+    color:rgb(211, 207, 207);
+    padding: 0 50px;
+    margin: 0px;
+
+}
+
+
+.button{
+    background: none;
+    padding: 20px 60px;
+    margin-bottom: 30px;
+    color: #0b6890;
+    border: 1px solid rgb(192, 191, 191);
+    
+}
+
+.align_cent{
+text-align: center;
+
+}
+
+.align_righ img{
+  float: right;
+}
+
+
+footer {
+    background-image: url(./img/bg--footer.png);
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    color: rgb(211, 207, 207);
+    padding-top: 100px;
+}
+
+
+
+footer .logo {
+    width: 100px;
+    margin: 0px auto;
+
+}
